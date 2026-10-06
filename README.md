@@ -1,13 +1,35 @@
 # Fishcrackers v1
+
 What if your virtual pet only grew when you studied? Meet Fishcrackers v1, an AI-powered study companion and virtual pet. You’ll participate in Pomodoro sessions, quizzes, and streaks to maintain your pet's health and grow together.
 
 ![pcb](pics/fishd.png)
 
 This project was created in EasyEDA; to use it, go to the PCB folder—it is saved as an .epro file.
 
-it is very compact, the pcb size is only 7x6cm because all components inside is built-in on pcb!
+it is very compact, the pcb size is only 7x6cm because all components inside is built-in on pcb! This device is designed to remain energy-efficient even when all features are active, so it is clear that the trickiest part was power management. I designed the USB-C port to handle both Li-Po battery charging and firmware flashing, and I also implemented load switches for the power domains of each peripheral. It was truly baffling—I spent at least 10 hours on this over the course of a few days because it was the most critical aspect.
+
+## features
+
+-Quiz after each Pomodoro session
+
+-Pomodoro timer
+
+-Cute display and text output (for when AI voice output cannot be heard)
+
+-To-do list
+
+-Reminders
+
+-App connectivity
+
+-Mini-games
+
+-Music player
+
+-Offline voice commands
 
 ## Bill of Material
+
 |No   |Comment                  |JLCPCB/EXTERNAL Part|Qty|Est Unit Price (USD)|Total Price (USD)|LINK                                                                                                                                                                                                                                             |
 |-----|-------------------------|--------------------|---|--------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |1    |蓝灯停产                     |C125096             |20 |0.005               |0.10             |JLCPCB ASSEMBLY                                                                                                                                                                                                                                  |
@@ -43,3 +65,7 @@ it is very compact, the pcb size is only 7x6cm because all components inside is 
 |31   |TFP09-2-12B              |EXTERNAL            |1  |0.5                 |0.5              |https://shopee.co.id/Micro-SD-Card-Socket-Adapter-TF-9p-PCB-Reader-Connector-9pin-Push-Type-i.390846440.19931206539?extraParams=%7B%22display_model_id%22%3A191608514730%2C%22model_selection_logic%22%3A3%7D                                    |
 |TOTAL (JLCPCB ASSEMBLY+EXTERNAL)|                         |                    |   |125.5                |                 |                                                                                                                                                                                                                                                 |
 note: when you use JLCPCBA setup fees will be charged for each extended components.
+
+## acknowledge
+
+I use AI to help compare similar components and read component documentation.
