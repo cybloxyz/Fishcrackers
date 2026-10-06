@@ -3,6 +3,8 @@ What if your virtual pet only grew when you studied? Meet Fishcrackers v1, an AI
 
 ![pcb](pics/fishd.png)
 
+This project was created in EasyEDA; to use it, go to the PCB folder—it is saved as an .epro file.
+
 it is very compact, the pcb size is only 7x6cm because all components inside is built-in on pcb!
 
 ## Bill of Material
