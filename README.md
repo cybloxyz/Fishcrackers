@@ -68,4 +68,4 @@ note: when you use JLCPCBA setup fees will be charged for each extended componen
 
 ## acknowledge
 
-I use AI to help compare similar components and read component documentation.
+I use AI to help compare similar components and read component documentation and write initial firmware.
